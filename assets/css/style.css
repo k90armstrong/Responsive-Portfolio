@@ -258,9 +258,6 @@ button {
 }
 
 @media screen and (max-width: 768px) {
-    .main-header {
-        background-color: blue;
-    }
     .left-section {
         width: 60%;
     }
@@ -274,7 +271,6 @@ button {
 
 @media screen and (max-width: 640px) {
     .main-header {
-        background-color: green;
         width: 50%;
         margin-left: 0px;
         margin-right: 0px;
@@ -300,4 +296,5 @@ button {
         float: none;
         clear: both;
     }
+    /* Still need to figure out why the links are way off to the right!! */
 }
